@@ -4,7 +4,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div className='flex items-center justify-between p-4'>
-            <div className='hidden md:flex'>
+            <div className='hidden md:flex items-center gap-2 text-xs rounded-full'>
                 <Image src="/search.png" alt='' width={14} height={14} />
                 <input type="text"  placeholder='Search...'/>
             </div>
@@ -14,7 +14,7 @@ const Navbar = () => {
                 </div>
                 <div className='bg-white rounded-full w-7 h-7 flex items-center justify-center cursor-pointer relative'>
                     <Image src="/announcement.png" alt='messages' width={20} height={20} />
-                    <div className='absolute -top-3 -right-3 w-5 h-5 flex items-center justify-center bg-blue-500 text-white'>1</div>
+                    <div className='absolute -top-3 -right-3 w-5 h-5 flex items-center justify-center bg-blue-500 text-white rounded-full'>10</div>
                 </div>
                 <div className='flex flex-col'>
                     <span className='text-xs leading-3 font-medium'>Fouad</span>

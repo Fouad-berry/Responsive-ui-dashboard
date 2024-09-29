@@ -15,6 +15,10 @@ const Navbar = () => {
                 <div className='bg-white rounded-full w-7 h-7 flex items-center justify-center cursor-pointer'>
                     <Image src="/announcement.png" alt='messages' width={20} height={20} />
                 </div>
+                <div className='flex flex-col'>
+                    <span>Fouad</span>
+                    <span>Fouad</span>
+                </div>
             </div>
         </div>
     );

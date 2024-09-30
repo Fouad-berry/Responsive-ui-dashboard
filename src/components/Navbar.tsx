@@ -8,7 +8,7 @@ const Navbar = () => {
                 <Image src="/search.png" alt='' width={14} height={14} />
                 <input type="text"  placeholder='Search...'/>
             </div>
-            <div className='flex items-center gap-6'>
+            <div className='flex items-center gap-6 justify-end w-full'>
                 <div className='bg-white rounded-full w-7 h-7 flex items-center justify-center cursor-pointer'>
                     <Image src="/message.png" alt='messages' width={20} height={20} />
                 </div>

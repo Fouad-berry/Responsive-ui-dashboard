@@ -1,5 +1,4 @@
 import UserCard from '@/components/UserCard';
-import React from 'react';
 
 const AdminPage = () => {
     return (
@@ -12,7 +11,7 @@ const AdminPage = () => {
                     <UserCard type='staff' />
                 </div>
             </div>
-            <div className='w-full lg:w-1/3'>R</div>
+            <div className='w-full lg:w-1/3'></div>
         </div>
     );
 };

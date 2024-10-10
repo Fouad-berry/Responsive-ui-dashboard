@@ -20,6 +20,7 @@ export default function DashboardLayout({
             <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#F7F8FA] overflow-scroll">
                 <Navbar/>
                 The website is on development , please come later (...)
+                i'm still work myself thanks you
                 {children}
             </div>
         </div>
